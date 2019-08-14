@@ -1,2 +1,2 @@
 # Writing-Temp
-ブロガー・アフィリエイター・ライターのライティング用テンプレート。
+Article template for bloggers, affiliates and writers.
