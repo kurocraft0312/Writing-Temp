@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+/*
+font-size決め方
+https://qiita.com/AsagiriDesign/items/af182de0e1c6245d102d
+https://www.plusdesign.co.jp/blog/?p=5152
+基本は、bodyに対し、font-size:62.5%で指定。すると以下、1rem=10px 1.6rem=16pxのように計算がしやすくなる
+*/
+body {
+    font-size: 62.5%;
+}
