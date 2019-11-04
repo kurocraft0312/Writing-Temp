@@ -12,7 +12,6 @@
     <div class="container">
         <h2 class="heading">WEBライティング用テンプレート</h2>
         <div>
-            <!-- ここをforeachで繰り返し処理 -->
             <label for="question">
             <?php 
                 // 設問項目をここに入れる
@@ -23,7 +22,6 @@
                 }
             ?>
             </label>
-            <!-- 繰り返しここまで -->
         </div>
         <div>
             <!-- この辺にsubmitボタンを設置＆ボタンを押したら、下のテキストエリアに回答の内容を結合して入れる -->
