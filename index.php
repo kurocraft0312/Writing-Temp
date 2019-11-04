@@ -18,7 +18,7 @@
                 // 設問項目をここに入れる
                 $questions = ['設問1','設問2','設問3','設問4','設問5','設問6','設問7','設問8','設問9','設問10'];
                 foreach ($questions as $question) {
-                    echo $question . nl2br("\n");
+                    echo '<div class="question-heading">' . $question . '</div>';
                 } 
             ?>
             </label>
