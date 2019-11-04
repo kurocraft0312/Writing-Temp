@@ -19,11 +19,10 @@
                 $questions = ['設問1','設問2','設問3','設問4','設問5','設問6','設問7','設問8','設問9','設問10'];
                 foreach ($questions as $question) {
                     echo '<div class="question-heading">' . $question . '</div>';
-                } 
+                    echo '<input type="text">';
+                }
             ?>
             </label>
-            <!-- ユーザーの回答欄をここに入れる -->
-            <input type="text">
             <!-- 繰り返しここまで -->
         </div>
         <div>
