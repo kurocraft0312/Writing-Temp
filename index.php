@@ -15,18 +15,19 @@
             <!-- ここをforeachで繰り返し処理 -->
             <label for="question">
             <?php 
-                // 設問の内容をここに入れる
+                // 設問項目をここに入れる
                 $questions = ['設問1','設問2','設問3','設問4','設問5','設問6','設問7','設問8','設問9','設問10'];
                 foreach ($questions as $question) {
                     echo $question . nl2br("\n");
                 } 
             ?>
             </label>
+            <!-- ユーザーの回答欄をここに入れる -->
             <input type="text">
             <!-- 繰り返しここまで -->
         </div>
         <div>
-            <!-- この辺にsubmitボタンを設置 -->
+            <!-- この辺にsubmitボタンを設置＆ボタンを押したら、下のテキストエリアに回答の内容を結合して入れる -->
             <input type="button" value="文章を生成">
         </div>
         <div>
