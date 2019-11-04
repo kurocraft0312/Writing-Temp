@@ -13,7 +13,15 @@
         <h2 class="heading">WEBライティング用テンプレート</h2>
         <div>
             <!-- ここをforeachで繰り返し処理 -->
-            <label for="question">ここに設問内容を記載する</label>
+            <label for="question">
+            <?php 
+                // 設問の内容をここに入れる
+                $questions = ['','','','','','','','','',''];
+                foreach ($questions as $question) {
+                    echo $question . "\n";
+                } 
+            ?>
+            </label>
             <input type="text">
             <!-- 繰り返しここまで -->
         </div>
