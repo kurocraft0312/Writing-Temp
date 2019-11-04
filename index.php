@@ -16,9 +16,9 @@
             <label for="question">
             <?php 
                 // 設問の内容をここに入れる
-                $questions = ['','','','','','','','','',''];
+                $questions = ['設問1','設問2','設問3','設問4','設問5','設問6','設問7','設問8','設問9','設問10'];
                 foreach ($questions as $question) {
-                    echo $question . "\n";
+                    echo $question . nl2br("\n");
                 } 
             ?>
             </label>
